@@ -1,5 +1,5 @@
-.SearchResults {
-  width: 30%;
+.PlaylistContainer {
+  width: 20%;
   height: 950px;
   overflow-y: scroll;
   padding: .88rem;
@@ -13,7 +13,7 @@
 }
 
 @media only screen and (max-width: 1020px) {
-  .SearchResults {
+  .PlaylistContainer {
     width: 90%;
     margin-bottom: 2rem;
   }
