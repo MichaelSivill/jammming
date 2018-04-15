@@ -30,11 +30,6 @@ class App extends React.Component {
     this.loadPlaylists();
   }
 
-  componentDidMount() {
-    // Spotify.getAccessToken();
-    // this.loadPlaylists();
-  }
-
   addTrack(track){
     if (this.state.playListTracks.every(pltrack => {return pltrack.id !== track.id}))
       {

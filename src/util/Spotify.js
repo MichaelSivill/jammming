@@ -1,6 +1,6 @@
 let userAccessToken;
-const appId = 'ec99ac9a6657428d8c5e64e136e87e45';
-//const redirectUri = 'http://msjammming.surge.sh/';
+const appId = 'xxxx'; //to run locally insert your Spotify API id
+//const redirectUri = 'http://msjammming.surge.sh/';  // visit msjamming.surge.sh to view deplayed web page
 const redirectUri = 'http://localhost:3000/';
 
 const Spotify = {
